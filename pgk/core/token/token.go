@@ -13,6 +13,7 @@ type Service struct {
 	secret []byte
 }
 
+
 type Payload struct {
 	Id    int64    `json:"id"`
 	Exp   int64    `json:"exp"`
